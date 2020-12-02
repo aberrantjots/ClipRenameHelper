@@ -84,7 +84,7 @@
             0,
             0});
             this.numericUpDown1.Minimum = new decimal(new int[] {
-            6,
+            1,
             0,
             0,
             0});
@@ -92,7 +92,7 @@
             this.numericUpDown1.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown1.TabIndex = 3;
             this.numericUpDown1.Value = new decimal(new int[] {
-            6,
+            1,
             0,
             0,
             0});
@@ -241,7 +241,6 @@
             this.testCaseTextBox.Name = "testCaseTextBox";
             this.testCaseTextBox.Size = new System.Drawing.Size(100, 20);
             this.testCaseTextBox.TabIndex = 15;
-            this.testCaseTextBox.Text = "4784605";
             // 
             // label5
             // 

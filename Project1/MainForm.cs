@@ -86,7 +86,7 @@ namespace ClipHelper
 
             var destination = $"{_ogPath}{resultTextBox.Text}";
             var destinationCheck = File.Exists(destination);
-            if (!destinationCheck)
+            if (destinationCheck)
             {
                 MessageBox.Show("Error: that file already exists. Update your selections.");
             }
